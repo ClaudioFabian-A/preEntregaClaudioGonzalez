@@ -23,7 +23,7 @@ class ProductManager {
                     descripcion,
                     price,
                     thumbnail,
-                    code: code + 1,
+                    code,
                     stock,
                     id: this.products.length +1
                 }
